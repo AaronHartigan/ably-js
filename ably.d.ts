@@ -333,7 +333,7 @@ declare namespace Types {
 	interface DevicePushDetails {
 		recipient: any;
 		state?: DevicePushState;
-		errorReason?: ErrorInfo;
+		error?: ErrorInfo;
 	}
 
 	interface DeviceRegistrationParams {
